@@ -1,4 +1,5 @@
 body {
-    background-image: url(../images/background-photo-by-lean.jpeg);
+    /* background-image: url(../images/background-photo-by-lean.jpeg); */
+    background-color: black;
     background-size: cover;
 }
