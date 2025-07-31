@@ -3,3 +3,32 @@ body {
     background-color: black;
     background-size: cover;
 }
+
+/* Buttons */
+
+.button.button-portly-like {
+  color: #333333;
+  background-color: #F0F0F0;
+}
+.button.button-portly-like:hover,
+.button.button-portly-like:focus {
+  filter: brightness(90%);
+}
+
+
+.button.button-ithelp {
+  color: #ffffff;
+  background-color: #00A0E9;
+}
+.button.button-ithelp:hover,
+.button.button-ithelp:focus {
+  filter: brightness(90%);
+}
+
+/* Animation */
+
+.animate__animated {
+    --animate-duration: 2s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
