@@ -1,15 +1,37 @@
 body {
-    /* background-image: url(../images/background-photo-by-lean.jpeg); */
-    background-color: black;
-    background-size: cover;
+  /* background-image: url(../images/background-photo-by-lean.jpeg); */
+  background-color: black;
+  background-size: cover;
+}
+
+/* Divider */
+.divider {
+  height: 2px;
+  width: 70%;
+  min-width: 18.75rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider.divider-white {
+  background-color: #F0F0F0;
 }
 
 /* Buttons */
+
+.button {
+  width: 70%;
+  min-width: 18.75rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
 
 .button.button-portly-like {
   color: #333333;
   background-color: #F0F0F0;
 }
+
 .button.button-portly-like:hover,
 .button.button-portly-like:focus {
   filter: brightness(90%);
@@ -20,6 +42,7 @@ body {
   color: #ffffff;
   background-color: #00A0E9;
 }
+
 .button.button-ithelp:hover,
 .button.button-ithelp:focus {
   filter: brightness(90%);
@@ -28,7 +51,7 @@ body {
 /* Animation */
 
 .animate__animated {
-    --animate-duration: 2s;
-    --animate-delay: 1s;
-    --animate-repeat: 1;
+  --animate-duration: 2s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
 }
