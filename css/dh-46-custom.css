@@ -12,6 +12,7 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  vertical-align: middle;
 }
 
 .divider.divider-white {
